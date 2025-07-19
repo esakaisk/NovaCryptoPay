@@ -1,14 +1,14 @@
 {
   "name": "novacryptopay",
   "version": "1.0.0",
+  "description": "Multi-chain crypto payment gateway",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["crypto", "payment", "gateway", "blockchain"],
+  "author": "Esa Kaisar",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "@solana/web3.js": "^1.98.2",
     "bitcoinjs-lib": "^6.1.7",
